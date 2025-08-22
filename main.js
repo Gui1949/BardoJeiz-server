@@ -184,7 +184,6 @@ restapi.post("/data/del_dislike", function (req, res) {
 });
 
 const multer = require("multer");
-const path = require("path");
 let cuiaba = "";
 
 var storage = multer.diskStorage({
