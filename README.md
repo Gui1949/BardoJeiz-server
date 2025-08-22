@@ -365,10 +365,6 @@ Todos os endpoints retornam erros no formato:
 
 ## 🔧 Configurações
 
-### OneSignal
-- **App ID**: `aeb277cc-35e9-4ec4-84a4-406fc5a78c34`
-- **Authorization**: `Basic NmFmNmZhZTMtMzRlMC00MzFjLTk5MWUtMWI3NWY3ZThmMzMw`
-
 ### Upload de Arquivos
 - **Destino**: `./img/`
 - **Formato**: JPG, PNG, MOV, MP4
