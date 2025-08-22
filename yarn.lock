@@ -817,6 +817,11 @@ cheerio@^1.0.0-rc.3:
     undici "^6.19.5"
     whatwg-mimetype "^4.0.0"
 
+child_process@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/child_process/-/child_process-1.0.2.tgz"
+  integrity sha512-Wmza/JzL0SiWz7kl6MhIKT5ceIlnFPJX+lwUGj7Clhy5MMldsSoJR0+uvRzOS5Kv45Mq7t1PoE8TsOA9bzvb6g==
+
 chownr@^1.1.1:
   version "1.1.4"
   resolved "https://registry.npmjs.org/chownr/-/chownr-1.1.4.tgz"
@@ -2354,6 +2359,11 @@ node-addon-api@^7.0.0:
   version "7.1.1"
   resolved "https://registry.npmjs.org/node-addon-api/-/node-addon-api-7.1.1.tgz"
   integrity sha512-5m3bsyrjFWE1xf7nz7YXdN4udnVtXK6/Yfgn5qnahL6bCkf2yKt4k3nuTKAtT4r3IG8JNR2ncsIMdZuAzJjHQQ==
+
+node-cron@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.npmjs.org/node-cron/-/node-cron-4.2.1.tgz"
+  integrity sha512-lgimEHPE/QDgFlywTd8yTR61ptugX3Qer29efeyWw2rv259HtGBNn1vZVmp8lB9uo9wC0t/AT4iGqXxia+CJFg==
 
 node-fetch@^2.6.1:
   version "2.7.0"

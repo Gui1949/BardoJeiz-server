@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "add-text-to-image": "^1.0.1",
+    "child_process": "^1.0.2",
     "cors": "^2.8.5",
     "dom-to-image": "^2.6.0",
     "duckduckgo-images-api": "^1.0.5",
@@ -27,6 +28,7 @@
     "jpeg-js": "^0.4.3",
     "js-image-generator": "^1.0.3",
     "multer": "^1.4.2",
+    "node-cron": "^4.2.1",
     "node-fetch": "^2.6.1",
     "node-html-parser": "^6.1.13",
     "node-webshot": "^1.0.4",
