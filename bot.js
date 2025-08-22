@@ -4,7 +4,6 @@ const GoogleImages = require("google-images");
 const ahNegao = require('./bots/ahnegao.js')
 const wikiHow = require('./bots/wikihow.js')
 const buzzFeed = require('./bots/buzzfeed.js')
-const ofertasML = require('./bots/ofertas_ml.js')
 const client = new GoogleImages(
   "partner-pub-4228098010894354:5271861158",
   "AIzaSyDyZJg8XvB8FtI40o8VDM7muck6fKUpnNY"
@@ -1718,11 +1717,9 @@ setInterval(() => {
 	ahNegao.main()	
 	wikiHow.main()
 	buzzFeed.main()
-	ofertasML.main()
 }, 300000)
 
 wikiHow.main()
-ofertasML.main()
 ahNegao.main()
 buzzFeed.main()
 bot_jeiz();
