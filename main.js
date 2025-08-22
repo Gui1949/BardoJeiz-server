@@ -186,13 +186,17 @@ restapi.post("/data/del_dislike", function (req, res) {
 const multer = require("multer");
 let cuiaba = "";
 
-var storage = multer.diskStorage({
+let storage 
+
+try { storage = multer.diskStorage({
   destination: "./img/",
   filename: function (req, file, cb) {
     cuiaba = "upload" + "-" + Date.now() + path.extname(file.originalname);
     cb(null, cuiaba);
   },
-});
+})} catch (error) {
+  console.log(error);
+}
 
 restapi.use("/data/img", express.static("./img"));
 
