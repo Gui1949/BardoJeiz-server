@@ -1,5 +1,4 @@
 var sqlite3 = require("sqlite3").verbose();
-var db = new sqlite3.Database("./database.db");
 var express = require("express");
 var cors = require("cors");
 var restapi = express();
@@ -11,6 +10,9 @@ let Parser = require("rss-parser");
 const fetch = require("node-fetch");
 let parser = new Parser();
 var domtoimage = require("dom-to-image");
+
+const db = new sqlite3.Database(path.join(__dirname, "database.db"));
+
 
 restapi.use(bodyParser.urlencoded({ extended: false }));
 restapi.use(bodyParser.json());
