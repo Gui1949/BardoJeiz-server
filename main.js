@@ -10,6 +10,7 @@ let Parser = require("rss-parser");
 const fetch = require("node-fetch");
 let parser = new Parser();
 var domtoimage = require("dom-to-image");
+const path = require("path");
 
 const db = new sqlite3.Database(path.join(__dirname, "database.db"));
 
